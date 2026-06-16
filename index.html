@@ -1,5 +1,5 @@
 <!DOCTYPE html><html lang="ro"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Cabana Hamba</title><link rel="stylesheet" href="style.css?v=4"></head><body>
-<header><b>Cabana Hamba</b><nav><a data-i18n="navGallery" href="#gallery">Galerie</a><a data-i18n="navFacilities" href="#facilities">Facilități</a><a data-i18n="navActivities" href="#activities">Activități</a><a href="#prices">Preise / Prices / Prețuri</a><a data-i18n="navContact" href="#contact">Contact</a></nav><div class="lang"><button data-lang="ro">🇷🇴 RO</button><button data-lang="en">🇬🇧 EN</button><button data-lang="de">🇩🇪 DE</button></div></header>
+<header><b>Cabana Hamba</b><nav><a data-i18n="navGallery" href="#gallery">Galerie</a><a data-i18n="navFacilities" href="#facilities">Facilități</a><a data-i18n="navActivities" href="#activities">Activități</a><a data-i18n="navPrices" href="#prices">Prețuri</a><a data-i18n="navContact" href="#contact">Contact</a></nav><div class="lang"><button data-lang="ro">🇷🇴 RO</button><button data-lang="en">🇬🇧 EN</button><button data-lang="de">🇩🇪 DE</button></div></header>
 <section class="hero"><div><h1 data-i18n="heroTitle">Cabana Hamba – Sibiu</h1><p data-i18n="heroSubtitle">Piscină încălzită • Ciubăr • Wi‑Fi gratuit • Natură și relaxare</p><a class="btn" href="https://wa.me/40744593504" data-i18n="whatsapp">Rezervă pe WhatsApp</a></div></section>
 <main>
 <section class="card"><h2 data-i18n="introTitle">Locul ideal pentru familie și prieteni</h2><p data-i18n="introText">Cabana Hamba oferă confort, intimitate și relaxare lângă Sibiu, cu piscină încălzită, ciubăr, șemineu, living spațios, bucătărie complet utilată și internet de mare viteză.</p></section>
@@ -21,25 +21,15 @@
 <section class="card"><h2 data-i18n="rulesTitle">Check-in / Check-out</h2><p><b data-i18n="checkin">Check-in:</b> 15:00</p><p><b data-i18n="checkout">Check-out:</b> 11:00</p><p data-i18n="minStay">Sejur minim: 2 nopți.</p></section>
 
 <section id="prices" class="card">
-<h2>Preise / Prices / Prețuri</h2>
+<h2 data-i18n="pricesTitle">Prețuri</h2>
 
 <div class="features">
-<div><strong>🇷🇴 Luni – Joi</strong><br>de la 1300 Lei/noapte</div>
-<div><strong>🇷🇴 Vineri – Duminică</strong><br>de la 1400 Lei/noapte</div>
-<div><strong>🇷🇴 Sărbători</strong><br>Preț la cerere</div>
-
-<div><strong>🇬🇧 Monday – Thursday</strong><br>from 1300 Lei/night</div>
-<div><strong>🇬🇧 Friday – Sunday</strong><br>from 1400 Lei/night</div>
-<div><strong>🇬🇧 Holidays</strong><br>Price on request</div>
-
-<div><strong>🇩🇪 Montag – Donnerstag</strong><br>ab 1300 Lei/Nacht</div>
-<div><strong>🇩🇪 Freitag – Sonntag</strong><br>ab 1400 Lei/Nacht</div>
-<div><strong>🇩🇪 Feiertage</strong><br>Preis auf Anfrage</div>
+<div><strong data-i18n="priceWeekTitle">Luni – Joi</strong><br><span data-i18n="priceWeekText">de la 1300 Lei/noapte</span></div>
+<div><strong data-i18n="priceWeekendTitle">Vineri – Duminică</strong><br><span data-i18n="priceWeekendText">de la 1400 Lei/noapte</span></div>
+<div><strong data-i18n="priceHolidayTitle">Sărbători</strong><br><span data-i18n="priceHolidayText">Preț la cerere</span></div>
 </div>
 
-<p><strong>RO:</strong> Piscina, ciubărul, Wi‑Fi-ul, internetul de mare viteză și grătarul sunt disponibile pentru oaspeți.</p>
-<p><strong>EN:</strong> Pool, hot tub, Wi‑Fi, high-speed internet and barbecue area are available for guests.</p>
-<p><strong>DE:</strong> Pool, Ciubăr, WLAN, High-Speed-Internet und Grillplatz stehen den Gästen zur Verfügung.</p>
+<p data-i18n="priceNote">Piscina, ciubărul, Wi‑Fi-ul, internetul de mare viteză și grătarul sunt disponibile pentru oaspeți.</p>
 </section>
 
 <section id="contact" class="contact"><h2 data-i18n="contactTitle">Contact & rezervare</h2><p data-i18n="contactText">Pentru disponibilitate și rezervări, contactează-ne direct:</p><a href="tel:+40744593504">📞 +40 744 593 504</a><a href="mailto:maziluciprian@yahoo.com">📧 maziluciprian@yahoo.com</a><a href="https://wa.me/40744593504">💬 WhatsApp</a></section>
@@ -56,4 +46,56 @@ document.querySelectorAll('.gallery img').forEach(img => {
     });
 });
 </script>
+
+<script>
+(function(){
+const priceTranslations={
+ro:{
+navPrices:"Prețuri",
+pricesTitle:"Prețuri",
+priceWeekTitle:"Luni – Joi",
+priceWeekText:"de la 1300 Lei/noapte",
+priceWeekendTitle:"Vineri – Duminică",
+priceWeekendText:"de la 1400 Lei/noapte",
+priceHolidayTitle:"Sărbători",
+priceHolidayText:"Preț la cerere",
+priceNote:"Piscina, ciubărul, Wi‑Fi-ul, internetul de mare viteză și grătarul sunt disponibile pentru oaspeți."
+},
+en:{
+navPrices:"Prices",
+pricesTitle:"Prices",
+priceWeekTitle:"Monday – Thursday",
+priceWeekText:"from 1300 Lei/night",
+priceWeekendTitle:"Friday – Sunday",
+priceWeekendText:"from 1400 Lei/night",
+priceHolidayTitle:"Holidays",
+priceHolidayText:"Price on request",
+priceNote:"Pool, hot tub, Wi‑Fi, high-speed internet and barbecue area are available for guests."
+},
+de:{
+navPrices:"Preise",
+pricesTitle:"Preise",
+priceWeekTitle:"Montag – Donnerstag",
+priceWeekText:"ab 1300 Lei/Nacht",
+priceWeekendTitle:"Freitag – Sonntag",
+priceWeekendText:"ab 1400 Lei/Nacht",
+priceHolidayTitle:"Feiertage",
+priceHolidayText:"Preis auf Anfrage",
+priceNote:"Pool, Ciubăr, WLAN, High-Speed-Internet und Grillplatz stehen den Gästen zur Verfügung."
+}
+};
+function applyPrices(lang){
+ const d=priceTranslations[lang]||priceTranslations.ro;
+ document.querySelectorAll("[data-i18n]").forEach(el=>{
+   const key=el.getAttribute("data-i18n");
+   if(d[key]) el.textContent=d[key];
+ });
+}
+document.querySelectorAll("[data-lang]").forEach(btn=>{
+ btn.addEventListener("click",()=>setTimeout(()=>applyPrices(btn.dataset.lang),80));
+});
+applyPrices(localStorage.getItem("cabanaLang")||document.documentElement.lang||"ro");
+})();
+</script>
+
 </body></html>

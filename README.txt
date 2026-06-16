@@ -1,10 +1,10 @@
-Diese ZIP enthält die aktuelle index.html mit Preisen:
-- Montag–Donnerstag: ab 1300 Lei/Nacht
-- Freitag–Sonntag: ab 1400 Lei/Nacht
-- Feiertage: Preis auf Anfrage
+Diese Version korrigiert die Preise:
+- Bei RO werden nur rumänische Preise angezeigt.
+- Bei EN werden nur englische Preise angezeigt.
+- Bei DE werden nur deutsche Preise angezeigt.
 
 Hochladen:
 1. ZIP entpacken.
-2. In GitHub die alte index.html ersetzen.
+2. Nur index.html in GitHub ersetzen.
 3. Commit changes klicken.
-4. Seite öffnen mit: https://mihaela311.github.io/cabana-hamba/?v=preise1400
+4. Seite öffnen mit: https://mihaela311.github.io/cabana-hamba/?v=preise-fix
