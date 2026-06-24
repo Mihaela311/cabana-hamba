@@ -1,0 +1,32 @@
+Änderungen zusammengefasst
+
+1. Titel geändert:
+   Cabana Hamba – Sibiu -> Poienița Soarelui – Hamba, Sibiu
+
+2. HTML-Titel im Browser/Google geändert:
+   Poienița Soarelui – Hamba, Sibiu | Ferienhaus mit Pool
+
+3. SEO ergänzt:
+   - Meta Description
+   - Canonical URL
+   - Robots-Meta-Tag index,follow
+   - Open Graph Tags
+   - Schema.org strukturierte Daten für LodgingBusiness
+
+4. script.js aktualisiert:
+   - heroTitle in RO/EN/DE auf Poienița Soarelui – Hamba, Sibiu geändert
+   - Übersetzungen für Preise ergänzt
+   - Bildpfade bleiben korrigiert
+
+5. Fehler korrigiert:
+   Galerfie foto -> Galerie foto
+
+6. Neue Dateien:
+   - robots.txt
+   - sitemap.xml
+
+Wichtig nach dem Hochladen:
+1. index.html, script.js, robots.txt und sitemap.xml in GitHub hochladen.
+2. GitHub Pages 1–2 Minuten warten lassen.
+3. Website mit Strg+F5 neu laden.
+4. In Google Search Console sitemap.xml einreichen und Indexierung beantragen.
